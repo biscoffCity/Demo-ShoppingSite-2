@@ -1,0 +1,507 @@
+@import url(https://fonts.googleapis.com/css?family=Meie+Script);
+body {
+    background-image: url(../IMG/pink_rice.png);
+    !important;
+    background-attachment: fixed;
+    
+}
+
+
+
+.h1fonts {
+  font-family: 'Meie Script', cursive;
+  font-size: 7vw;
+  color: #f6f8f9;
+
+
+}
+
+.marketing {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.divider {
+    margin: 80px 0;
+}
+
+hr {
+    border: solid 1px #eee;
+}
+
+.thumbnail {
+    margin: 0 auto;
+    margin-top: 27px;
+    width: 181px;
+    height: 420px;
+    background: #F7E8DE !important;
+}
+
+.thumbnail img {
+    width: 180px;
+    height: 320px;
+}
+
+.caption a {
+    background: #F7DFCF !important;
+}
+
+.caption p {
+    text-align: center;
+}
+
+.circlepic {
+    margin-top: 20px;
+}
+
+.img-circle {
+  height: 140px;
+  width: 140px;
+}
+
+.circlepic h2{
+  text-align: center;
+}
+
+.logo {
+    height: 140%;
+    width: 50px;
+    padding-bottom: 7px;
+
+}
+
+.jumbotron {
+    background-image: url(../IMG/homePrlx.jpg);
+    color: white;
+    background-attachment: fixed;
+    height: 380px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.jumbotron h1,
+h2 {
+    padding-left: 12%;
+    font-size: 4vw;
+    color: #FFF8F4;
+}
+
+
+/**/
+
+
+/*  Smooth Scroll     */
+
+
+/**/
+
+
+/**/
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+    right: 20px;
+    background: rgba(64, 64, 65, 0.44);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.icon-chevron-up {
+    color: #FFD3D3;
+    margin: 0 auto;
+    position: relative;
+    bottom: 4px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+#return-to-top:hover {
+    background: #FFD3D3;
+}
+
+#return-to-top:hover i {
+    bottom: 8px;
+    color: red;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+/*Image Holder */
+
+.img-holder {
+    width: 180px;
+    height: 320px;
+}
+
+
+/**/
+
+
+/*Lightbox*/
+
+
+/**/
+
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+    /** Default lightbox to hidden */
+    display: none;
+    /** Position and style */
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+    /** Pad the lightbox image */
+    width: 320px;
+    height: 569px;
+    margin-top: 2%;
+}
+
+.lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+    /** Unhide lightbox **/
+    display: block;
+}
+
+
+footer {
+  text-align: center;
+}
+
+
+/**************************
+        The  Modal
+****************************/
+
+.wrapper {
+  
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 30px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.loginText {
+    color: #ccc;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: black;
+    border-color: #504D56;
+}
+
+
+.form-signin .form-control {
+  margin-bottom: 16px;
+}
+
+
+
+
+
+
+/*This is the nav bar*/
+
+
+/*body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}*/
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: #FFB3A8;
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+
+}
+
+a {
+    color: #FFB3A8;
+    
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #17d0d5;
+}
+
+
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #FFB3A8;
+    background-color: #FFB3A8;
+}
+
+.btn-primary .badge {
+    color: #FFB3A8;
+    background-color: #fff;
+}
+
+
+
+
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #FFB3A8;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fec503;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFB3A8;
+    background-color: #FFB3A8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FFB3A8;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #FFB3A8;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #FFB3A8;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #17d0d5;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        position: relative;
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    .navbar-right {
+      float: right!important;
+      margin-right: -15px;
+      padding-top: 6px;
+    }
+
+    .navbar-default.navbar-shrink {
+      padding: 0;
+      background-color: #222;
+    }
+    .navbar-default.navbar-shrink {
+      padding: 0;
+      background-color: #222;
+      margin-bottom: 0;
+    }
+
+}
+
+.human {
+  height: 25px;
+  width: 26px;
+}
+
+.humann {
+  margin-right: -38px;
+}
+
+.navbar-default {
+  position: relative;
+}
+
+.sicon {
+  height: 34px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+.navbar-default .nav li a {
+
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.yat {
+  height: 60px;
+  width: 60px;
+}
+
+
+.navbar-default.navbar-shrink {
+      padding: 0;
+      background-color: #222;
+      margin-bottom: 0;
+}
+
+.productName {
+  font-size: 18px;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+
+
